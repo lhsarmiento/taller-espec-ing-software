@@ -1,3 +1,20 @@
+.header {
+    background-color: #007BFF; /* Color de fondo azul */
+    color: #fff; /* Texto blanco para contraste */
+    text-align: center; /* Centra el contenido */
+    padding: 1.5rem; /* Espacio interno */
+    border-bottom: 2px solid #0056b3; /* Borde inferior */
+}
+
+.header-title {
+    font-size: 2rem; /* Tamaño grande para el título */
+    margin: 0; /* Sin margen adicional */
+}
+
+.header-description {
+    font-size: 1.2rem; /* Descripción un poco más pequeña */
+    margin: 0.5rem 0; /* Margen entre título y descripción */
+}
 .calculator {
     width: 300px;
     margin: 0 auto;
