@@ -11,26 +11,28 @@
         <h1>Calculadora Online</h1>
         <input class="alinear-derecha" type="text" id="display" disabled>
         <div class="keys">
-            <button onclick="clearDisplay()">C</button>
-            <button onclick="appendToDisplay('7')">7</button>
-            <button onclick="appendToDisplay('8')">8</button>
-            <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('+')">+</button>
-            <button onclick="appendToDisplay('4')">4</button>
-            <button onclick="appendToDisplay('5')">5</button>
-            <button onclick="appendToDisplay('6')">6</button>
-            <button onclick="appendToDisplay('-')">-</button>
-            <button onclick="appendToDisplay('1')">1</button>
-            <button onclick="appendToDisplay('2')">2</button>
-            <button onclick="appendToDisplay('3')">3</button>
-            <button onclick="appendToDisplay('*')">*</button>
-            <button onclick="appendToDisplay('0')">0</button>
-            <button onclick="appendToDisplay('.')">.</button>
-            <button onclick="calculate()">=</button>
-            <button onclick="appendToDisplay('/')">/</button>
-            <button onclick="appendToDisplay('sin')">sin</button>
-            <button onclick="appendToDisplay('cos')">cos</button>
-            <button onclick="appendToDisplay('tan')">tan</button>
+            <button onclick="clearDisplay()" class="operacion">C</button>
+	    <button onclick="appendToDisplay('sin')" class="operacion">sin</button>
+            <button onclick="appendToDisplay('cos')" class="operacion">cos</button>
+            <button onclick="appendToDisplay('tan')" class="operacion">tan</button>
+            <button onclick="appendToDisplay('7')" class="numeros">7</button>
+            <button onclick="appendToDisplay('8')" class="numeros">8</button>
+            <button onclick="appendToDisplay('9')" class="numeros">9</button>
+	    <button onclick="appendToDisplay('/')" class="operacion">/</button>
+            <button onclick="appendToDisplay('4')" class="numeros">4</button>
+            <button onclick="appendToDisplay('5')" class="numeros">5</button>
+            <button onclick="appendToDisplay('6')" class="numeros">6</button>
+            <button onclick="appendToDisplay('*')" class="operacion">*</button>
+            <button onclick="appendToDisplay('1')" class="numeros">1</button>
+            <button onclick="appendToDisplay('2')" class="numeros">2</button>
+            <button onclick="appendToDisplay('3')" class="numeros">3</button>
+	    <button onclick="appendToDisplay('-')" class="operacion">-</button>
+            <button onclick="appendToDisplay('0')" class="numeros">0</button>
+            <button onclick="appendToDisplay('.')" class="numeros">.</button>
+	    <button onclick="calculate()" class="operacion">=</button>
+	    <button onclick="appendToDisplay('+')" class="operacion">+</button>
+			
+	    <!--<button onclick="removeToDisplay()" class="operacion">DEL</button>-->
         </div>
     </div>
 
