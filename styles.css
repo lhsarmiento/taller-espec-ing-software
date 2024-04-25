@@ -29,6 +29,10 @@ input[type="text"] {
     grid-gap: 10px;
 }
 
+.alinear-derecha {
+  text-align: right;
+}
+
 button {
     padding: 15px;
     font-size: 18px;
