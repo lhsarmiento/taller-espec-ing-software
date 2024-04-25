@@ -44,7 +44,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-.numerosf {
+.numeros {
     background-color: #007bff; /* Color de fondo */
     color: #fff; /* Color del texto */
     border: none; /* Elimina el borde */
@@ -54,7 +54,21 @@ button:hover {
     cursor: pointer; /* Cambia el cursor al pasar por encima */
 }
 
-.numerosf:hover {
+.numeros:hover {
     background-color: #0056b3; /* Cambia el color al pasar el cursor por encima */
+}
+
+.operacion {
+    background-color: #dc3545; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Elimina el borde */
+    border-radius: 4px; /* Añade bordes redondeados */
+    padding: 10px 20px; /* Ajusta el espacio dentro del botón */
+    margin: 5px; /* Ajusta el margen entre botones */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.operacion:hover {
+    background-color: #c82333; /* Cambia el color al pasar el cursor por encima */
 }
 
