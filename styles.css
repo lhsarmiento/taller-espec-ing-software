@@ -1,33 +1,43 @@
-body{
+body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
 }
 
 .header {
-    background: linear-gradient(135deg, #007BFF, #00A3FF); /* Degradado de azul a azul claro */
-    color: #fff; /* Texto blanco para contraste */
-    text-align: center; /* Centra el contenido */
-    padding: 1.5rem; /* Espacio interno */
-    border-bottom: 2px solid #0056b3; /* Borde inferior */
+    background: linear-gradient(135deg, #007BFF, #00A3FF);
+    /* Degradado de azul a azul claro */
+    color: #fff;
+    /* Texto blanco para contraste */
+    text-align: center;
+    /* Centra el contenido */
+    padding: 1.5rem;
+    /* Espacio interno */
+    border-bottom: 2px solid #0056b3;
+    /* Borde inferior */
     margin-bottom: 10px;
 }
 
 .header-title {
-    font-size: 2rem; /* Tamaño grande para el título */
-    margin: 0; /* Sin margen adicional */
+    font-size: 2rem;
+    /* Tamaño grande para el título */
+    margin: 0;
+    /* Sin margen adicional */
 }
 
 .header-description {
-    font-size: 1.2rem; /* Descripción un poco más pequeña */
-    margin: 0.5rem 0; /* Margen entre título y descripción */
+    font-size: 1.2rem;
+    /* Descripción un poco más pequeña */
+    margin: 0.5rem 0;
+    /* Margen entre título y descripción */
 }
+
 .calculator {
     width: fit-content;
     margin: 0 auto;
     text-align: center;
     background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
     padding: 0.2rem 1.5rem 1.5rem 1.5rem;
     margin-bottom: 10px;
 }
@@ -54,7 +64,7 @@ input[type="text"] {
 }
 
 .alinear-derecha {
-  text-align: right;
+    text-align: right;
 }
 
 button {
@@ -81,65 +91,125 @@ button:hover {
 }
 
 .numeros {
-    background-color: #3498db; /* Color de fondo */
-    color: #fff; /* Color del texto */
-    border: none; /* Elimina el borde */
-    border-radius: 4px; /* Añade bordes redondeados */
-    padding: 10px 20px; /* Ajusta el espacio dentro del botón */
-    margin: 5px; /* Ajusta el margen entre botones */
-    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    background-color: #3498db;
+    /* Color de fondo */
+    color: #fff;
+    /* Color del texto */
+    border: none;
+    /* Elimina el borde */
+    border-radius: 4px;
+    /* Añade bordes redondeados */
+    padding: 10px 20px;
+    /* Ajusta el espacio dentro del botón */
+    margin: 5px;
+    /* Ajusta el margen entre botones */
+    cursor: pointer;
+    /* Cambia el cursor al pasar por encima */
 }
 
 .numeros:hover {
-    background-color: #0056b3; /* Cambia el color al pasar el cursor por encima */
- }
+    background-color: #0056b3;
+    /* Cambia el color al pasar el cursor por encima */
+}
 
 .operacion {
-    background-color: #1abc9c; /* Color de fondo */
-    color: #fff; /* Color del texto */
-    border: none; /* Elimina el borde */
-    border-radius: 4px; /* Añade bordes redondeados */
-    padding: 10px 20px; /* Ajusta el espacio dentro del botón */
-    margin: 5px; /* Ajusta el margen entre botones */
-    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    background-color: #1abc9c;
+    /* Color de fondo */
+    color: #fff;
+    /* Color del texto */
+    border: none;
+    /* Elimina el borde */
+    border-radius: 4px;
+    /* Añade bordes redondeados */
+    padding: 10px 20px;
+    /* Ajusta el espacio dentro del botón */
+    margin: 5px;
+    /* Ajusta el margen entre botones */
+    cursor: pointer;
+    /* Cambia el cursor al pasar por encima */
 }
 
 .operacion:hover {
-    background-color: #148f77; /* Cambia el color al pasar el cursor por encima */
+    background-color: #148f77;
+    /* Cambia el color al pasar el cursor por encima */
 }
 
 .clearAll {
-    background-color: #c39bd3; /* Color de fondo */
-    color: #fff; /* Color del texto */
-    border: none; /* Elimina el borde */
-    border-radius: 4px; /* Añade bordes redondeados */
-    padding: 10px 20px; /* Ajusta el espacio dentro del botón */
-    margin: 5px; /* Ajusta el margen entre botones */
-    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    background-color: #c39bd3;
+    /* Color de fondo */
+    color: #fff;
+    /* Color del texto */
+    border: none;
+    /* Elimina el borde */
+    border-radius: 4px;
+    /* Añade bordes redondeados */
+    padding: 10px 20px;
+    /* Ajusta el espacio dentro del botón */
+    margin: 5px;
+    /* Ajusta el margen entre botones */
+    cursor: pointer;
+    /* Cambia el cursor al pasar por encima */
 }
 
 .clearAll:hover {
-    background-color: #af7ac5; /* Cambia el color al pasar el cursor por encima */
+    background-color: #af7ac5;
+    /* Cambia el color al pasar el cursor por encima */
 }
 
 .footer {
-    background: linear-gradient(135deg, #007BFF, #00A3FF); 
-    color: #fff; /* Texto blanco para contraste */
-    text-align: center; /* Centra el contenido */
-    padding: 1rem; /* Espacio interno */
-    border-top: 2px solid #0056b3; /* Borde superior */
+    background: linear-gradient(135deg, #007BFF, #00A3FF);
+    color: #fff;
+    /* Texto blanco para contraste */
+    text-align: center;
+    /* Centra el contenido */
+    padding: 1rem;
+    /* Espacio interno */
+    border-top: 2px solid #0056b3;
+    /* Borde superior */
 }
 
 .footer p {
-    margin: 0; /* Sin margen adicional */
-    font-size: 1rem; /* Tamaño del texto */
+    margin: 0;
+    /* Sin margen adicional */
+    font-size: 1rem;
+    /* Tamaño del texto */
 }
 
 .footer a {
-    color: #fff; /* Enlaces de color blanco */
-    text-decoration: none; /* Sin subrayado */
+    color: #fff;
+    /* Enlaces de color blanco */
+    text-decoration: none;
+    /* Sin subrayado */
 }
 
 .footer a:hover {
-    text-decoration: underline; /* Subrayado al pasar el ratón */
+    text-decoration: underline;
+    /* Subrayado al pasar el ratón */
 }
+
+@keyframes animatedBackground {
+    0% {
+        background-color: #ffc987;
+    }
+
+    25% {
+        background-color: #ff9fcf;
+    }
+
+    50% {
+        background-color: #ca89ff;
+    }
+
+    75% {
+        background-color: #77bbff;
+    }
+
+    100% {
+        background-color: #ffc987;
+    }
+}
+
+.animated-background {
+    animation: animatedBackground 10s infinite linear;
+}
+
