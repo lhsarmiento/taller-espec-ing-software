@@ -143,3 +143,15 @@ button:hover {
 .footer a:hover {
     text-decoration: underline; /* Subrayado al pasar el ratón */
 }
+
+@keyframes animatedBackground {
+    0% { background-color: #ff8c00; }
+    25% { background-color: #ff0080; }
+    50% { background-color: #8c00ff; }
+    75% { background-color: #0080ff; }
+    100% { background-color: #ff8c00; }
+    }
+    
+    .animated-background {
+    animation: animatedBackground 10s infinite linear;
+    }
