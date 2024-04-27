@@ -145,11 +145,11 @@ button:hover {
 }
 
 @keyframes animatedBackground {
-    0% { background-color: #ff8c00; }
-    25% { background-color: #ff0080; }
-    50% { background-color: #8c00ff; }
-    75% { background-color: #0080ff; }
-    100% { background-color: #ff8c00; }
+    0% { background-color: #ffc987; }
+    25% { background-color: #ff9fcf; }
+    50% { background-color: #ca89ff; }
+    75% { background-color: #77bbff; }
+    100% { background-color: #ffc987; }
     }
     
     .animated-background {
