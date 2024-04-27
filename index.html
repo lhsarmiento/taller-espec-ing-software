@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>    
+
+<body class="animated-background">
+    <canvas id="canvasParticulas" style="z-index: -100;position: absolute;"></canvas>
+
+    <header class="header">
+        <h1 class="header-title">CalcuPlus: El Poder de los Números</h1>
+        <p class="header-description">Realiza cálculos básicos y operaciones trigonométricas</p>
+    </header>
     <div class="calculator">
         <h1>Calculadora Online</h1>
         <input class="alinear-derecha" type="text" id="display" disabled>
         <div class="keys">
-            <button onclick="clearDisplay()" class="operacion">C</button>
-	    <button onclick="appendToDisplay('sin')" class="operacion">sin</button>
+            <button onclick="clearDisplay()" class="clearAll">C</button>
+            <button onclick="appendToDisplay('sin')" class="operacion">sin</button>
             <button onclick="appendToDisplay('cos')" class="operacion">cos</button>
             <button onclick="appendToDisplay('tan')" class="operacion">tan</button>
             <button onclick="appendToDisplay('7')" class="numeros">7</button>
             <button onclick="appendToDisplay('8')" class="numeros">8</button>
             <button onclick="appendToDisplay('9')" class="numeros">9</button>
-	    <button onclick="appendToDisplay('/')" class="operacion">/</button>
+            <button onclick="appendToDisplay('/')" class="operacion"><i class="fas fa-divide"></i></button>
             <button onclick="appendToDisplay('4')" class="numeros">4</button>
             <button onclick="appendToDisplay('5')" class="numeros">5</button>
             <button onclick="appendToDisplay('6')" class="numeros">6</button>
-            <button onclick="appendToDisplay('*')" class="operacion">*</button>
+            <button onclick="appendToDisplay('*')" class="operacion"><i class="fas fa-times"></i></button>
             <button onclick="appendToDisplay('1')" class="numeros">1</button>
             <button onclick="appendToDisplay('2')" class="numeros">2</button>
             <button onclick="appendToDisplay('3')" class="numeros">3</button>
-	    <button onclick="appendToDisplay('-')" class="operacion">-</button>
+            <button onclick="appendToDisplay('-')" class="operacion"><i class="fas fa-minus"></i></button>
             <button onclick="appendToDisplay('0')" class="numeros">0</button>
             <button onclick="appendToDisplay('.')" class="numeros">.</button>
-	    <button onclick="calculate()" class="operacion">=</button>
-	    <button onclick="appendToDisplay('+')" class="operacion">+</button>
-			
-	    <!--<button onclick="removeToDisplay()" class="operacion">DEL</button>-->
+            <button onclick="calculate()" class="operacion"><i class="fas fa-equals"></i></button>
+            <button onclick="appendToDisplay('+')" class="operacion"><i class="fas fa-plus"></i></button>
+            <button onclick="removeToDisplay()" class="operacion"><i class="fas fa-backspace"></i></button>
         </div>
     </div>
+    <footer class="footer">
+        <p>© 2024 Calculadora Online. Todos los derechos reservados.</p>
+        <a href="mailto:contacto@calculadora.com">Contáctanos</a>
+    </footer>
 
     <script src="script.js"></script>
+    <script src="particulas.js"></script>
 </body>
+
 </html>
