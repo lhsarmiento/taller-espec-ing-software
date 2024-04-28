@@ -15,6 +15,8 @@ body {
     border-bottom: 2px solid #0056b3;
     /* Borde inferior */
     margin-bottom: 10px;
+    box-shadow: 0px -1px 20px 0px #0000007a;
+
 }
 
 .header-title {
@@ -165,7 +167,8 @@ button:hover {
     padding: 1rem;
     /* Espacio interno */
     border-top: 2px solid #0056b3;
-    /* Borde superior */
+    /* Borde superior */    
+    box-shadow: 0px -1px 20px 0px #0000007a;
 }
 
 .footer p {
@@ -210,6 +213,11 @@ button:hover {
 }
 
 .animated-background {
-    animation: animatedBackground 10s infinite linear;
+    animation: animatedBackground 30s infinite linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
-
