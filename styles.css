@@ -211,5 +211,6 @@ button:hover {
 
 .animated-background {
     animation: animatedBackground 30s infinite linear;
+    position: relative;
 }
 
