@@ -210,6 +210,6 @@ button:hover {
 }
 
 .animated-background {
-    animation: animatedBackground 10s infinite linear;
+    animation: animatedBackground 30s infinite linear;
 }
 
