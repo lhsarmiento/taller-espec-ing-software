@@ -3,9 +3,15 @@ let display = document.getElementById('display');
 function appendToDisplay(value) {
 
     if (value === 'sin' || value === 'cos' || value === 'tan') {
-        display.value = value === 'sin' ? Math.sin(display.value) :
+        try {
+            display.value = eval(display.value);
+
+            display.value = value === 'sin' ? Math.sin(display.value) :
                 value === 'cos' ? Math.cos(display.value) :
                     value === 'tan' ? Math.tan(display.value) : display.value;
+        } catch (error) {
+            display.value = 'Error';
+        }
     }
     else
         display.value += value;
@@ -30,3 +36,5 @@ function calculate() {
         display.value = 'Error';
     }
 }
+
+
